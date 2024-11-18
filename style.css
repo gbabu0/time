@@ -1,0 +1,122 @@
+#container{
+    width: 70%;
+    margin: 2%;
+    padding: 3%;
+    height: 400px;
+    
+    display: grid;
+    grid-template-areas: 
+    'head head mat nut'
+    'head head sat net'
+    'bad nav sam sam'
+    'rat mag sam sam'
+    'ram ram tom ant'
+    'ram ram wed kid'
+    ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 60px 70px 70px 70px 70px;
+    gap: 2px;
+}
+.box{
+    grid-area: head;
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+.box1{
+   
+    grid-area: mat;
+    background-color: lightgray;
+    display: grid;
+    place-items: center; 
+}
+.box2{
+    
+    grid-area: sat;
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+.box3{
+    
+    grid-area: nut;
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+.box4{
+    
+    grid-area: net;
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+.box5{
+
+    grid-area: bad;
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+.box6{
+
+    grid-area: rat;
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+.box7{
+
+    grid-area: nav;
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+.box8{
+
+    grid-area: mag;
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+.box9{
+
+    grid-area: sam;
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+.box10{
+
+    grid-area: ram;
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+.box11{
+    grid-area: tom;
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+.box12{
+
+    grid-area: wed;
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+.box13{
+
+    grid-area: ant;
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+.box14{
+
+    grid-area: kid;
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
